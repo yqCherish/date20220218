@@ -17,7 +17,7 @@ const routes = [
     path: "/",
     name: "NewYear",
     component: NewYear,
-    meta: {title: "春节快乐！"}
+    meta: {title: "小黄同学~女生节快乐呀！"}
   }
 ]
 

@@ -264,13 +264,13 @@ export const loadSmokeFire = () => {
           for (let i = 0; i < fireSoundAudios.length; i++) {
             fireSoundAudios[i].muted = false;
           }
-          ctx.fillStyle = 'rgba(184,42,30,0.2)';
+          ctx.fillStyle = 'rgb(0, 0, 0)';
           ctx.fillRect(0, 0, width, height);
         } else {
           for (let i = 0; i < fireSoundAudios.length; i++) {
             fireSoundAudios[i].muted = true;
           }
-          ctx.fillStyle = 'rgb(184,42,30)';
+          ctx.fillStyle = 'rgb(0, 0, 0)';
           ctx.fillRect(0, 0, width, height);
         }
 
